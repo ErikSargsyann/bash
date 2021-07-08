@@ -1,0 +1,43 @@
+-R(recursive)
+anyComand --help --> information 
+1) lscpu -- computer information
+2․1) find -name *hello* OR *.js -- փնտրում է  ֆոլդերները
+2.2) grep -r vahe փնտրում է բոլոր vahe - ները
+3) copy file, սարքում է ярлык
+ln -s /absolutePath/fileName   folderName
+ls -l folderName
+4) pwd -- filePath
+5) ls -- պարունակությունը
+6) cat firstFile > secondFile -- երկրորդից ամեն ինչ ջնջում է ու ավելացնում
+7) cat firstFile >> secondFile -- երկրորդից չի ջնջում ու ավելացնում
+8) head -n100 fileName -- ցույց է տալիս ֆայլի առաջին 100 տողը, tail -n100 վերջից
+9) sed -n '200,300p' fileName -- ցույց է տալիս 200-ից մինչև 300 տողը
+10) ls | grep myFile -- ման է գալիս ֆայլը.      | անգլ.(pipe)  -- նշանակում է խողովակ
+11) pgrep firefox - a -- ցույց է տալիս պրոցեսորի այդին
+12) kill այդին ֊֊ փակում է տվյալ պրոցեսորը
+13) pkill firefox(օր.) -- փակում է անունով
+14) sudo adduser userName -- սարքում է user
+15) sudo adduser userName sudo -- տալիս է sudo 
+16) sudo deluser -r userName -- ջնջում է user 
+17) sudo chown -R user:user fileName -- փոխում է ֆայլի սեփականատիրոջը, տալիս է user-ին
+18) mv 1file 2file -- անունը փոխում է
+19) mv 1file anyFolder/ -- ֆայլը քցում է ֆոլդերի մեջ
+20) passwd -- փոխում է գաղտնաբառը
+21) ifconfig -- inet, ip ինֆորմացիա
+22) vim /etc/resolv.conf -- dns սերվերը
+23) ssh -x userName@ipAdress, հետո իրա password -- մտնումա համակարգիչ
+24) export DISPLAY=:0 firefox -- բացում է ծրագրեր
+25) sudo systemctl stop/start serviceName -- անջատում/միացնում է սերվիսը տվյալ պահին
+26) sudo systemctl disable/enable serviceName -- անջատում/միացնում է սերվիսը ընդմիշտ
+27) wget google.com -- html էջը ներբեռնում է
+28) chmod -R 777 -- սարքում է հասանելի բոլորի համար
+29) scp file.txt userName@userIp:/home/pontem/Desktop -- ուղարկում է ֆայլ ուրիշ համակարգիչ
+30/ -r ուղարկում է ֆայլ 
+
+
+
+
+
+
+
+
